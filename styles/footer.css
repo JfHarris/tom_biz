@@ -1,0 +1,25 @@
+footer {
+    border-top: 5px solid black;
+}
+
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.up-arrow {
+    width: 3rem;
+    height: 3rem;
+}
+
+.copy {
+    justify-content: center;
+    text-align: center;
+}
+
+.copy2 {
+    text-align: center;
+    justify-content: left;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, viewport-fit=cover" />
+        <title>Tomahwak, LLC - Bartlesville, OK</title>
+        <meta name="description" content="Tomahwak is Bartlesville's supply company for local businesses" />
+        <link rel="icon" type="truck" href="./assets/delivery.png" />
+        <link rel="stylesheet" href="./styles/body.css" />
+        <link rel="stylesheet" href="./styles/footer.css" />
+        <link rel="stylesheet" href="./styles/header.css" />
+    </head>
+    <body style="margin: 0;">
+        <header>
+            <div class="logo">
+                <img class="logo" src="./assets/biz_logo.jpg" alt="logo" height="150">
+            </div>
+            <div class="label">
+                <h1>Tomahawk Supply</h1>
+                <p>
+                    Proudly serving the Bartlesville area.
+                    <a href="tel:1111111111">Give us a call</a>
+                    or visit our <a href="https://www.facebook.com/profile.php?id=100072171774485">
+                        Facebook page!
+                    </a>
+                </p>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#products" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="about" id="about">
+                <img class="family" src="./assets/family.jpg" alt="Family photo" width="500">
+                <div class="about_text">
+                    <h2>About Us</h2>
+                    <p>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                </div>
+            </div>
+            <div class="products" id="products">
+                <div class="products_text">
+                    <h2>Products</h2>
+                    <p>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                </div>
+                <img class="prod" src="./assets/products.jpg" alt="Product" width="300" height="300">
+            </div>
+            <div class="contact" id="contact">
+                <img class="hello" src="./assets/contact.png" alt="Contact icons" width="300" height="300">
+                <div class="contact_text">
+                    <h2>Contact Us</h2>
+                    <div class="contact-form-container">
+                        <form action="https://formspree.io/f/EMPTY" method="POST">
+                            <div class="form-control">
+                                <label for="name">Name</label>
+                                <input
+                                type="text"
+                                id="name"
+                                name="sender-name"
+                                placeholder="Enter Your Name"
+                                class="input-field"
+                                required
+                                />
+                            </div>
+                            <div class="form-control">
+                                <label for="email">Email</label>
+                                <input
+                                type="email"
+                                id="email"
+                                name="sender-email"
+                                placeholder="Enter Your Email"
+                                class="input-field"
+                                required
+                                />
+                            </div>
+                            <div class="form-control">
+                                <label for="message">Message</label>
+                                <textarea
+                                id="message"
+                                cols="60"
+                                rows="10"
+                                placeholder="Enter Your Message"
+                                name="message"
+                                class="input-field"
+                                required
+                                ></textarea>
+                            </div>
+                            <input
+                            type="submit"
+                            value="Submit"
+                            id="submit-btn"
+                            class="submit-btn"
+                            />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p class="copy">&copy; Copyright 2022</p>
+            <p class="copy2">
+                Made with &#9786; by <a href="https://github.com/jfharris">Jeff Harris</a>
+            </p>
+            <div id="scroll-up">
+                <i class="scroll-up" id="scroll-up"
+                ><img
+                src="assets/upArrow.png"
+                class="socicon up-arrow"
+                alt="scroll-up"
+                /></i>
+            </div>
+            <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+            <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+            <script src="app.js"></script>
+        </footer>
+    </body>
+</html>
