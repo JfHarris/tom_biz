@@ -1,0 +1,133 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: auto;
+    padding-right: 2rem;
+    background-color: red;
+    border-bottom: 5px solid black;
+}
+
+.about_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about img {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: auto;
+    padding-left: 2rem ;
+    background-color: rgb(242, 240, 240);
+    border-bottom: 5px solid black;
+}
+
+.products_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products img {
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: auto;
+    padding-right: 2rem;
+    background-color: red;
+    padding-bottom: 2rem;
+}
+
+.contact_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact img {
+    mix-blend-mode: multiply;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contact-form-container {
+    max-width: 40.75rem;
+    margin: 0 auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px 1px rgb(242, 240, 240);
+}
+
+.contact-form-container label {
+    line-height: 2.7em;
+    font-weight: bold;
+    color: black;
+}
+
+.contact-form-container textarea {
+    min-height: 6.25rem;
+    font-size: 14px;
+}
+
+.contact-form-container .input-field {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px outset rgb(242, 240, 240);
+    font-size: 0.875rem;
+    outline: none;
+}
+
+.input-field::placeholder {
+    padding: 0.5rem;
+    color: black;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: .25s ease-in-out;
+}
+
+.submit-btn:hover {
+    background-color: gray;
+    border: 2px solid black;
+    cursor: pointer;
+}
