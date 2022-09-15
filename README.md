@@ -1,5 +1,4 @@
-Simple website for a friend's business.
+Choices of websites for a friend's business.
 
-Add phone number
-FB address
-Complete contact form
+simple
+modern
