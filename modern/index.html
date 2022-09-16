@@ -87,13 +87,75 @@
                 </div>
                 <div class="contact" id="contact">
                     <h2>Contact Us</h2>
+                        <div class="contact-form-container">
+                            <div class="contact-form">
+                                <form action="https://formspree.io/f/" method="POST">
+                                    <div class="form-control">
+                                        <label for="name">Name</label>
+                                        <input
+                                        type="text"
+                                        id="name"
+                                        name="sender-name"
+                                        placeholder="Enter Your Name"
+                                        class="input-field"
+                                        required
+                                        />
+                                    </div>
+                                    <div class="form-control">
+                                        <label for="email">Email</label>
+                                        <input
+                                        type="email"
+                                        id="email"
+                                        name="sender-email"
+                                        placeholder="Enter Your Email"
+                                        class="input-field"
+                                        required
+                                        />
+                                    </div>
+                                    <div class="form-control">
+                                        <label for="message">Message</label>
+                                        <textarea
+                                        id="message"
+                                        cols="60"
+                                        rows="10"
+                                        placeholder="Enter Your Message"
+                                        name="message"
+                                        class="input-field"
+                                        required
+                                        ></textarea>
+                                    </div>
+                                    <input
+                                    type="submit"
+                                    value="Submit"
+                                    id="submit-btn"
+                                    class="submit-btn"
+                                    />
+                                </form>
+                            </div>
+                        </div>
+                        <div class="social">
+                            <h3>Visit Us On Facebook</h3>
+                            <p> 
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                <a href="https://www.facebook.com/profile" target="_blank"></a>
+                            </p>
+                            <h3>Or Give Us A Call</h3>
+                            <p>
+                                <a href="tel:1111111111">Give us a call</a>
+                            </p>
+                        </div>
                 </div>
             </div>
         </main>
         <footer>
             <p class="copy">&copy; Copyright 2022</p>
             <p class="copy2">
-                Made with &#9786; by <a href="https://github.com/jfharris">Jeff Harris</a>
+                Made with &#9786; by <a href="https://github.com/jfharris" target="_blank">Jeff Harris</a>
             </p>
             <div id="scroll-up">
                 <i class="scroll-up" id="scroll-up"
