@@ -15,6 +15,20 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
+        <style> .loader {
+            position: fixed;
+            background-color: #FFF;
+            opacity: 1;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+        </style>
+        <div class="loader">
+            <h1>Tomahawk Supply, LLC</h1>
+        </div>
         <header class="header">
             <script src="./burger.js"></script>
             <div class="nav_content">
@@ -76,14 +90,38 @@
                 </div>
                 <div class="products" id="products">
                         <h2>Products</h2>
-                        <p>
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                        </p>
+                        <div class="goods">
+                            <h3>Our Products</h3>
+                            <p>
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            </p>
+                            <br>
+                            <ul>
+                                <li>Product 1</li>
+                                <br>
+                                <li>Product 2</li>
+                                <br>
+                                <li>Product 3</li>
+                            </ul>
+                        </div>
+                        <div class="services">
+                            <h3>Services</h3>
+                            <p>
+                                "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED
+                                DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. 
+                                UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO 
+                                LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT. DUIS AUTE 
+                                IRURE DOLOR IN REPREHENDERIT IN VOLUPTATE VELIT ESSE CILLUM 
+                                DOLORE EU FUGIAT NULLA PARIATUR. EXCEPTEUR SINT OCCAECAT 
+                                CUPIDATAT NON PROIDENT, SUNT IN CULPA QUI OFFICIA DESERUNT 
+                                MOLLIT ANIM ID EST LABORUM."
+                            </p>
+                        </div>
                 </div>
                 <div class="contact" id="contact">
                     <h2>Contact Us</h2>
@@ -170,4 +208,36 @@
             <script src="app.js"></script>
         </footer>
     </body>
+    <style>
+        .loader {
+            -webkit-animation: load-out 4s;
+            animation: load-out 4s;
+            -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+            animation-delay: 0s;
+        }
+        
+        @-webkit-keyframes load-out {
+            from {
+                top: 0;
+                opacity: 1;
+            }
+        
+            to {
+                left: 100%;
+                opacity: 0;
+            }
+        }
+        
+        @keyframes load-out {
+            from {
+                top: 0;
+                opacity: 1;
+            }
+            to {
+                left: 100%;
+                opacity: 0;
+            }
+        }
+        </style>
 </html>

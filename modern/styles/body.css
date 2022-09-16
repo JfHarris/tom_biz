@@ -101,6 +101,25 @@
     margin: 5px 0px 5px 0px;
 }
 
+.products h3 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.goods {
+    max-width: 50%;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.services {
+    max-width: 50%;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
 /* Contact */
 
 .contact {
@@ -184,4 +203,32 @@
 
 .social {
     max-width: 50%;
+}
+
+/* Loading screen */
+
+.loader {
+    background-image: url(../assets/tomahaw_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    border: 4px solid #Fff;
+    -webkit-animation: smooth 5s ease-in;
+    -moz-animation: smooth 5s ease-in;
+    -o-animation: smooth 5s ease-in;
+    -ms-animation: smooth 5s ease-in;
+    animation: smooth 5s ease-in;
+}
+
+@keyframes smooth {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+.loader h1 {
+    justify-content: center;
+    text-align: center;
 }
