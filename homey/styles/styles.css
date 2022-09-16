@@ -1,0 +1,9 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../assets/price_tower.jpg);
+}

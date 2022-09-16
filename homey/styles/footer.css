@@ -1,0 +1,33 @@
+footer {
+    background: transparent;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    text-align: center;
+}
+
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.scroll-up img {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.up-arrow {
+    width: 3rem;
+    height: 3rem;
+}
