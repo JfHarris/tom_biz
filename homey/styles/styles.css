@@ -1,9 +1,211 @@
 * {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
     text-decoration: none;
+    list-style-type: none;
+    margin: 0;
 }
 
 body {
+    background-color: #c8a386;
+}
+
+.buffer {
+    background-color: #c8a386;
+    height: 30px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+/* About */
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-header {
     background-image: url(../assets/price_tower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+    width: 100%;
+    height: 50px;
+    border-bottom: 5px solid black;
+    justify-content: center;
+    text-align: right;
+    color: black;
+    font-size: larger;
+}
+
+.about h2 {
+    padding-right: 30px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.about h3 {
+    text-align: center;
+    justify-content: center;
+}
+
+.about-footer {
+    background-image: url(../assets/price_tower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 60%;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    text-align: right;
+    color: black;
+    font-size: larger;
+}
+
+/* Products */
+
+.products h2 {
+    padding-right: 30px;
+}
+
+.products-header {
+    background-image: url(../assets/bison.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+    width: 100%;
+    height: 50px;
+    border-bottom: 5px solid black;
+    justify-content: center;
+    text-align: right;
+    color: black;
+    font-size: larger;
+}
+
+.products-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.goods {
+    justify-content: center;
+    text-align: center;
+}
+
+.services {
+    text-align: center;
+    justify-content: center;
+}
+
+.products-footer {
+    background-image: url(../assets/bison.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 60%;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    text-align: right;
+    color: black;
+    font-size: larger;
+}
+
+/* Contact */
+
+.contact-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact h2 {
+    color: black;
+	font-size: 40px;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    padding-right: 30px;
+}
+
+.contact-header {
+    background-image: url(../assets/cabin.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+    width: 100%;
+    height: 50px;
+    border-bottom: 5px solid black;
+    justify-content: center;
+    text-align: right;
+    color: black;
+    font-size: larger;
+}
+
+.contact-footer {
+    background-image: url(../assets/cabin.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 60%;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    text-align: right;
+    color: black;
+    font-size: larger;
+}
+
+/* Contact form */
+
+.contact-form-container {
+    max-width: 40.75rem;
+    margin: 0 auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px black;
+}
+
+.contact-form-container label {
+    line-height: 2.7em;
+    font-weight: 700;
+    color: black;
+}
+
+.contact-form-container textarea {
+    min-height: 6.25rem;
+    font-size: 14px;
+}
+
+.contact-form-container .input-field {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px outset black;
+    font-size: 0.875rem;
+    outline: none;
+}
+
+.input-field::placeholder {
+    padding: 0.5rem;
+    color: black;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: ease-in-out 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: black;
+    border: 2px solid gray;
+    cursor: pointer;
+    color: white;
 }

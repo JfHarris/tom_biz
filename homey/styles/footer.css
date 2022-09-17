@@ -1,5 +1,5 @@
 footer {
-    background: transparent;
+    background-color: #c8a386;
     margin: 0;
     padding: 10px 0px 10px 0px;
     text-decoration: none;
@@ -10,6 +10,8 @@ footer {
     justify-content: space-between;
     height: 50px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-top: 5px solid black;
 }
 
 .scroll-up {
