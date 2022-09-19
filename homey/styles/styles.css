@@ -23,13 +23,13 @@ body {
     flex-direction: column;
 }
 
-.about-header {
+.about-bg {
     background-image: url(../assets/price_tower.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 40%;
     width: 100%;
-    height: 50px;
+    height: 25%;
     border-bottom: 5px solid black;
     justify-content: center;
     text-align: right;
@@ -42,8 +42,11 @@ body {
 }
 
 .about-content {
+    background-color: transparent;
     display: flex;
     flex-direction: row;
+    margin-bottom: 50px;
+    padding: 0 15px;
 }
 
 .about h3 {
@@ -51,17 +54,25 @@ body {
     justify-content: center;
 }
 
-.about-footer {
-    background-image: url(../assets/price_tower.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 60%;
-    width: 100%;
-    height: 70px;
-    justify-content: center;
-    text-align: right;
-    color: black;
-    font-size: larger;
+.story {
+    background-color: #c8a386;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+}
+
+.team {
+    background-color: #c8a386;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+}
+
+.mission {
+    background-color: #c8a386;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
 }
 
 /* Products */
@@ -70,13 +81,13 @@ body {
     padding-right: 30px;
 }
 
-.products-header {
+.products-bg {
     background-image: url(../assets/bison.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 40%;
     width: 100%;
-    height: 50px;
+    height: 25%;
     border-bottom: 5px solid black;
     justify-content: center;
     text-align: right;
@@ -87,29 +98,24 @@ body {
 .products-content {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }
 
 .goods {
-    justify-content: center;
-    text-align: center;
+    background-color: #c8a386;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    width: 40%;
 }
 
 .services {
-    text-align: center;
-    justify-content: center;
-}
-
-.products-footer {
-    background-image: url(../assets/bison.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 60%;
-    width: 100%;
-    height: 70px;
-    justify-content: center;
-    text-align: right;
-    color: black;
-    font-size: larger;
+    background-color: #c8a386;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    width: 40%;
 }
 
 /* Contact */
@@ -122,32 +128,19 @@ body {
 .contact h2 {
     color: black;
 	font-size: 40px;
-	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
     padding-right: 30px;
 }
 
-.contact-header {
+.contact-bg {
     background-image: url(../assets/cabin.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 40%;
     width: 100%;
-    height: 50px;
+    height: 30%;
     border-bottom: 5px solid black;
-    justify-content: center;
-    text-align: right;
-    color: black;
-    font-size: larger;
-}
-
-.contact-footer {
-    background-image: url(../assets/cabin.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 60%;
-    width: 100%;
-    height: 70px;
     justify-content: center;
     text-align: right;
     color: black;
@@ -157,6 +150,7 @@ body {
 /* Contact form */
 
 .contact-form-container {
+    background-color: #c8a386;
     max-width: 40.75rem;
     margin: 0 auto;
     padding: 0.938rem;
@@ -165,6 +159,8 @@ body {
 }
 
 .contact-form-container label {
+    text-align: left;
+    justify-content: left;
     line-height: 2.7em;
     font-weight: 700;
     color: black;
