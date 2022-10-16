@@ -51,6 +51,7 @@
 }
 
 .story {
+    min-width: 33%;
     background-image: url(../assets/bison.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,16 +67,41 @@
 }
 
 .mission {
+    min-width: 33%;
+    background-image: url(../assets/price_tower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 1px solid black;
     padding-left: 5px;
     padding-right: 5px;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.mission h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .team {
+    min-width: 33%;
+    background-image: url(../assets/family.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
     padding-left: 5px;
     padding-right: 5px;
     margin-left: 5px;
     box-shadow: 0px 0px 15px 2px black;
+    text-align: center;
+    justify-content: center;
+}
+
+.team h3 {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Products */
@@ -207,7 +233,7 @@
 
 /* Loading screen */
 
-.loader {
+/* .loader {
     background-image: url(../assets/tomahaw_2.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -231,4 +257,59 @@
 .loader h1 {
     justify-content: center;
     text-align: center;
+}
+*/
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url(../assets/TomahawkSupplyMonochrome.PNG);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+/*#loader h1 {
+    height: 20%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: forwards fadeIn 1.8s;
+    -webkit-animation: fadeIn 1.8s;
+    -moz-animation: fadeIn 1.8s;
+    -o-animation: fadeIn 1.8s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 100%; }
+}*/
+
+#loader .waviy {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+#loader .waviy span {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i));
+}
+
+@keyframes flip {
+    0%,80% {
+        transform: rotateY(360deg) 
+    }
 }
