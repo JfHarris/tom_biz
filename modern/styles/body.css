@@ -313,3 +313,117 @@
         transform: rotateY(360deg) 
     }
 }
+
+/* Responsive Sections */
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    .about_us {
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 0;
+    }
+    
+    .about_us h2 {
+    text-align: center;
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    padding: 10px 0;
+    }
+    
+    .about_us img {
+    width: 100%;
+    max-width: none;
+    }
+    
+    .story, .mission, .team {
+    min-width: 100%;
+    margin: 10px 0;
+    }
+    
+    .products {
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 0;
+    }
+    
+    .products h2 {
+    text-align: center;
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    padding: 10px 0;
+    }
+    
+    .goods, .services {
+    max-width: 100%;
+    }
+    
+    .contact {
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 0;
+    }
+    
+    .contact h2 {
+    text-align: center;
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    padding: 10px 0;
+    }
+}
+
+  /* Tablets and Desktops */
+@media only screen and (min-width: 768px) {
+    .about_us {
+    margin: 20px 5px;
+    }
+    
+    .about_us h2 {
+    text-align: center;
+    justify-content: left;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    padding-right: 20px;
+    }
+    
+    .about_us img {
+    width: 60%;
+    max-width: 800px;
+    }
+    
+    .story, .mission, .team {
+    min-width: 33%;
+    margin: 5px;
+    }
+    
+    .products {
+    margin: 20px 5px;
+    }
+    
+    .products h2 {
+    text-align: center;
+    justify-content: left;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    padding-right: 20px;
+    margin: 5px 0;
+    }
+    
+    .goods, .services {
+    max-width: 50%;
+    padding: 0 5px;
+    }
+    
+    .contact {
+    margin: 20px 5px;
+    }
+    
+    .contact h2 {
+    text-align: center;
+    justify-content: left;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    padding-right: 20px;
+    margin: 5px 0;
+    }
+}
