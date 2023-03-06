@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -169,7 +173,7 @@
 }
 
 .contact-form-container {
-    max-width: 40.75rem;
+    min-width: 40.75rem;
     margin: 0 auto;
     padding: 0.938rem;
     border-radius: 5px;
@@ -229,8 +233,19 @@
 
 .social {
     max-width: 50%;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
 }
 
+.telephone {
+    max-width: 50%;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+}
 /* Loading screen */
 
 /* .loader {
@@ -313,6 +328,8 @@
         transform: rotateY(360deg) 
     }
 }
+
+
 
 /* Responsive Sections */
 
