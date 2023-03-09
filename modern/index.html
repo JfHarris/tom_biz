@@ -31,21 +31,6 @@
             <!--</h1>-->
             </div>
         </div>
-        <!---<style> .loader {
-            position: fixed;
-            background-color: #FFF;
-            opacity: 1;
-            height: 100%;
-            width: 100%;
-            top: 0;
-            left: 0;
-            z-index: 10;
-        }
-        </style>
-        <div class="loader">
-            <h1>Tomahawk Supply, LLC</h1>
-        </div>
-        --->
         <header class="header">
             <script src="./burger.js"></script>
             <div class="nav_content">
@@ -146,51 +131,29 @@
                         </div>
                 </div>
                 <div class="contact" id="contact">
-                    <h2>Contact Us</h2>
-                        <div class="contact-form-container">
-                            <div class="contact-form">
-                                <form action="https://formspree.io/f/" method="POST">
-                                    <div class="form-control">
-                                        <label for="name">Name</label>
-                                        <input
-                                        type="text"
-                                        id="name"
-                                        name="sender-name"
-                                        placeholder="Enter Your Name"
-                                        class="input-field"
-                                        required
-                                        />
+                    <div class="con_h2">
+                        <h2>Contact&nbspUS</h2>
+                    </div>
+                    <div class="contact-container">
+                        <div class="contact-content-con">
+                            <div class="right-contact">
+                                <form action="https://formspree.io/f/xwkyjdrq" method="POST" class="contact-form">
+                                    <div class="input-control i-c-2">
+                                        <input type="text" name="sender-name" required placeholder="YOUR NAME">
+                                        <input type="email" name="sender-email" required placeholder="YOUR EMAIL">
                                     </div>
-                                    <div class="form-control">
-                                        <label for="email">Email</label>
-                                        <input
-                                        type="email"
-                                        id="email"
-                                        name="sender-email"
-                                        placeholder="Enter Your Email"
-                                        class="input-field"
-                                        required
-                                        />
+                                    <div class="input-control">
+                                        <input type="text" name="subject" required placeholder="ENTER SUBJECT">
                                     </div>
-                                    <div class="form-control">
-                                        <label for="message">Message</label>
-                                        <textarea
-                                        id="message"
-                                        cols="60"
-                                        rows="10"
-                                        placeholder="Enter Your Message"
-                                        name="message"
-                                        class="input-field"
-                                        required
-                                        ></textarea>
+                                    <div class="input-control">
+                                        <textarea name="message" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
                                     </div>
-                                    <input
-                                    type="submit"
-                                    value="Submit"
-                                    id="submit-btn"
-                                    class="submit-btn"
-                                    />
+                                    <div class="submit-btn">
+                                        <input class="inp_btn" type="submit">
+                                        </input>
+                                    </div>
                                 </form>
+                            </div>
                             </div>
                         </div>
                     <div class="social">
@@ -198,16 +161,16 @@
                             <a href="https://www.facebook.com/profile.php?id=100072171774485" target="_blank">
                                 <img src="./assets/facebook.png" alt="Facebook logo">
                             </a>
-                                <h4>Visit us on Facebook!</h4>
+                                <h3>Visit us on Facebook!</h3>
                         </div>
-                        <div class="telephone">
-                            <h3>Or Give Us A Call</h3>
-                            <p>
-                                <a href="tel:1111111111">
-                                    <img src="./assets/phone.png" alt="Phone image">
-                                </a>
-                            </p>
-                        </div>
+                    </div>
+                    <div class="telephone">
+                        <h3>Or Give Us A Call</h3>
+                        <p>
+                            <a href="tel:1111111111">
+                                <img src="./assets/phone.png" alt="Phone image">
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -230,36 +193,4 @@
             <script src="app.js"></script>
         </footer>
     </body>
-    <style>
-        .loader {
-            -webkit-animation: load-out 4s;
-            animation: load-out 4s;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-            animation-delay: 0s;
-        }
-        
-        @-webkit-keyframes load-out {
-            from {
-                top: 0;
-                opacity: 1;
-            }
-        
-            to {
-                left: 100%;
-                opacity: 0;
-            }
-        }
-        
-        @keyframes load-out {
-            from {
-                top: 0;
-                opacity: 1;
-            }
-            to {
-                left: 100%;
-                opacity: 0;
-            }
-        }
-        </style>
 </html>
