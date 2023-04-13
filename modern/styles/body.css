@@ -89,7 +89,7 @@ html {
 }
 
 .team {
-    min-width: 33%;
+    max-width: 33%;
     background-image: url(../assets/family.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,7 +165,7 @@ html {
 
 .con_h2 {
     position: absolute;
-    left: 40px;
+    left: 35px;
 }
 
 .contact h2 {
@@ -261,23 +261,38 @@ html {
 .social {
     min-height: fit-content;
     min-width: 25%;
-    max-width: 50%;
+    max-width: 33%;
     padding-left: 5px;
     padding-bottom: 10px;
     justify-content: center;
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px
 }
 
 .telephone {
     min-width: 25%;
     min-height: fit-content;
     padding-left: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
     justify-content: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
+
+.email {
+    min-width: 25%;
+    min-height: fit-content;
+    padding-left: 5px;
+    padding-bottom: 25px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* Loading screen */
 
 /* .loader {
@@ -311,10 +326,6 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    background-image: url(../assets/TomahawkSupplyMonochrome.PNG);
-    background-repeat: no-repeat;
-    background-color: white;
-    background-position: 50% 50%;
     width: 100%;
     height: 100%;
     z-index: 9999;
